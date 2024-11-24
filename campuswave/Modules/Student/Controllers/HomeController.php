@@ -13,6 +13,10 @@ class HomeController extends BaseController{
         echo "Hello, Student dashboard here";
         exit;
     }
+
+    public function add_student(){
+        echo view('Modules\Student\Views\add-student');
+    }
 }
 
 

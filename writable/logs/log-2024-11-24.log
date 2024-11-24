@@ -1,0 +1,284 @@
+CRITICAL - 2024-11-24 13:05:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules/Student/Views/add-student.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Student/Views/add-student.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules/Student/Views/add-student.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules/Student/Views/add-student.php')
+ 4 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 5 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+ 6 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:07:32 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "http://localhost/campuswave/Modules/Common/Views/header.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/campuswave/Modules/Common/Views/header.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('http://localhost/campuswave/Modules/Common/Views/header.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(1): view('http://localhost/campuswave/Modules/Common/Views/header.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:09:19 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "http://localhost/campuswave/Modules\Common\Views\header.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('http://localhost/campuswave/Modules\\Common\\Views\\header.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('http://localhost/campuswave/Modules\\Common\\Views\\header.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(1): view('http://localhost/campuswave/Modules\\Common\\Views\\header.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:10:57 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:10:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:10:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:10:59 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:11:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:11:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:11:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:11:00 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:11:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:11:01 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Viewsooter.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Viewsooter.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Viewsooter.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Viewsooter.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:11:46 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Views\'footer.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Views\\\'footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Views\\\'footer.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Views\\\'footer.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:11:56 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Views\ footer.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Views\\ footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Views\\ footer.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Views\\ footer.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:12:08 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules/Common/Views/footer.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules/Common/Views/footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules/Common/Views/footer.php', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules/Common/Views/footer.php')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:15:40 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Views'\'footer.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Views\'\\\'footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Views\'\\\'footer', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Views\'\\\'footer')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-11-24 13:15:43 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "Modules\Common\Views'\'footer.php"
+[Method: GET, Route: add_student]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 41.
+ 1 SYSTEMPATH\View\View.php(222): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Modules\\Common\\Views\'\\\'footer.php')
+ 2 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Common\\Views\'\\\'footer', [], true)
+ 3 FCPATH\campuswave\Modules\Student\Views\add-student.php(149): view('Modules\\Common\\Views\'\\\'footer')
+ 4 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\campuswave\\campuswave\\Modules\\Student\\Views\\add-student.php')
+ 5 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('Modules\\Student\\Views\\add-student', [], true)
+ 7 FCPATH\campuswave\Modules\Student\Controllers\HomeController.php(18): view('Modules\\Student\\Views\\add-student')
+ 8 SYSTEMPATH\CodeIgniter.php(933): Modules\Student\Controllers\HomeController->add_student()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(Modules\Student\Controllers\HomeController))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))

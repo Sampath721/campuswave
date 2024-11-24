@@ -1,0 +1,517 @@
+.demo-navigation {
+  display: none;
+}
+
+.page-id-255 .demo-navigation {
+  display: block;
+}
+.page-id-697 .demo-navigation {
+  display: block;
+}
+
+.wp-block-navigation {
+  padding: 15px 25px;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+/* Main Menu Item Styling */
+.wp-block-navigation .wp-block-navigation-item {
+  color: #ff5722;
+  font-size: 16px;
+  padding: 12px 0px;
+  margin: 0 8px;
+  text-decoration: none;
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative; /* Ensure submenu can be positioned relative to the parent item */
+}
+
+/* Align submenu item content and icon */
+.wp-block-navigation__submenu-container .wp-block-navigation-item {
+  display: flex;
+  align-items: center; /* Ensure content and icon are aligned horizontally */
+}
+
+/* Dropdown Container Styling - Hidden initially */
+.wp-block-navigation__submenu-container,
+.has-background.has-base-2-background-color.block-editor-block-list__layout {
+  display: block;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  border-radius: 23px !important;
+  padding: 8px 0;
+  min-width: 200px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-top: 0px !important;
+  z-index: 1000;
+
+  transform: translateY(20px); /* Start from below */
+  transition: opacity 0.3s ease, transform 0.7s ease, visibility 5s 0.7s; /* Smooth transition */
+}
+
+/* Dropdown Items Styling */
+.wp-block-navigation__submenu-container .wp-block-navigation-link,
+.has-background.has-base-2-background-color .wp-block-navigation-item {
+  color: #333333;
+  padding: 12px 20px;
+  display: block;
+  text-decoration: none;
+  font-weight: normal;
+  transition: background-color 0.2s ease;
+  border-radius: 20px 20px 0 0; /* Round only top-left and top-right corners */
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.wp-block-navigation-item__content.has-child {
+  border-bottom: none !important;
+}
+
+.wp-block-navigation-item__content.has-child:hover {
+  text-decoration: none !important;
+}
+
+/* Dropdown Item Content */
+.wp-block-navigation-item__content {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  color: rgb(228, 75, 60);
+}
+
+/* Show Dropdown on Hover - Triggered on Parent Item */
+.wp-block-navigation
+  .wp-block-navigation-item:hover
+  .wp-block-navigation__submenu-container,
+.wp-block-navigation__submenu-container:hover {
+  opacity: 1; /* Fade in */
+  visibility: visible; /* Make visible */
+  transform: translateY(0); /* Move up to the exact position */
+  transition: opacity 0.5s ease, transform 0.8s ease; /* Smooth transition without delay */
+}
+
+/* Remove Outline Class Specific Styling */
+.remove-outline {
+  display: none;
+}
+
+/* Block Appender Button Container */
+.block-list-appender {
+  display: none;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .wp-block-navigation {
+    padding: 10px 15px;
+  }
+
+  .wp-block-navigation__submenu-container,
+  .has-background.has-base-2-background-color.block-editor-block-list__layout {
+    position: static;
+    box-shadow: none;
+    border-radius: 0 !important;
+    margin-top: 0 !important;
+    padding-left: 20px;
+  }
+
+  .wp-block-navigation-item {
+    width: 100%;
+    text-align: left;
+    padding: 12px 15px;
+  }
+}
+
+.wp-block-navigation__responsive-container.has-text-color.has-contrast-color.has-background.has-background.has-base-2-background-color {
+  border-bottom: none !important;
+}
+
+.wp-block-navigation-item.has-child,
+.wp-block-navigation-item.current-menu-item,
+.wp-block-navigation-item.wp-block-navigation-submenu {
+  border: none !important; /* Remove border */
+}
+
+.wp-block-navigation__submenu-container .wp-block-navigation-item:last-child {
+  border-radius: 25px !important;
+  border: none !important;
+}
+
+/* Custom Header Styling */
+.wp-block-navigation__responsive-container.wp-block-navigation-item__content {
+  background-color: rgb(161, 28, 28); /* Set header background color to white */
+}
+
+.wp-block-navigation-item.has-child.open-on-hover-click.wp-block-navigation-submenu {
+  display: flex !important;
+}
+
+.card {
+  max-width: 395px;
+  height: 278px;
+  width: 187px;
+  padding: 20px;
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f9f9f9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  transition: background-color 0.3s ease;
+}
+
+.icon-image {
+  width: 25px;
+  height: 25px;
+  transition: filter 0.3s ease;
+}
+
+/* Hover effect */
+.icon-circle:hover {
+  background-color: #ff5733; /* Orange background */
+}
+
+.icon-circle:hover .icon-image {
+  filter: brightness(0) invert(1); /* Makes the image white */
+}
+
+.card h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.card p {
+  height: 68px;
+  color: #777;
+  font-size: 12px;
+  line-height: 1.6;
+  margin: 10px 0;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.arrowCard {
+  font-size: 20px;
+  color: #333;
+  margin-top: 30px;
+  bottom: 20px;
+  right: 20px;
+}
+
+.card:hover .icon-image {
+  filter: brightness(0) invert(1); /* Inverts the image color (makes it white) */
+}
+
+.icon-circle:hover {
+  background-color: #ff5733; /* Orange background */
+}
+
+.card:hover .icon-image {
+  filter: brightness(0) invert(1); /* Inverts the image color (makes it white) */
+}
+
+.card:hover .icon-circle {
+  background-color: #ff5733; /* Orange background */
+}
+.card:hover {
+  cursor: pointer;
+}
+.CoupleWrapper {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+}
+
+.heroimage {
+  min-height: 730px !important;
+  background-position: 10% bottom !important;
+}
+.mobile-wrapper {
+  width: 489px;
+}
+.content-wrapper {
+  display: flex;
+  /* Centers the content horizontally */
+  padding: 20px; /* Adds space around the content */
+}
+
+.content-inner {
+  width: 90%; /* Sets the inner content width to 90% of the container */
+  max-width: 1200px; /* Optional: set a maximum width */
+  padding: 20px; /* Adds space inside the content */
+  background-color: transparent; /* Optional: adds a background color */
+  /* Optional: adds shadow for aesthetics */
+}
+
+.hero-btn {
+  background: linear-gradient(45deg, #fcd02c 30%, #fba02a);
+  min-height: 55px;
+  text-transform: capitalize;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+  padding: 10px 30px !important;
+  box-shadow: none !important;
+  transition: 0.3s ease-in-out;
+  color: white;
+  font-weight: bold !important;
+  border: none;
+  border-radius: 5px;
+}
+
+.hero-btn:hover {
+  background-color: #e04d2b; /* Button hover color */
+}
+@media (max-width: 615px) {
+  .page-id-697 .wp-block-group:has(.card) {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  .card-content-wrapper {
+    padding: 24px;
+  }
+  .card {
+    height: inherit;
+    width: 100%;
+    padding: 0px;
+    margin: 10px 0px !important;
+  }
+  .card p {
+    height: inherit;
+  }
+}
+
+@media (max-width: 768px) {
+  .mbl-view {
+    display: none !important;
+  }
+}
+
+@media (min-width: 615px) and (max-width: 785px) {
+  .page-id-697 .wp-block-group .card {
+    display: flex;
+    align-items: stretch;
+  }
+  .page-id-697 .wp-block-group {
+    align-items: stretch;
+  }
+  .card-content-wrapper {
+    padding: 24px;
+  }
+
+  .card {
+    flex: 1;
+
+    padding: 0px;
+    margin: 10px 0px !important;
+    height: auto; /* Use auto instead of inherit for dynamic height */
+  }
+
+  .card p {
+    height: auto;
+  }
+}
+
+/* General Reset */
+* {
+  /* margin: 0;
+  padding: 0;
+  box-sizing: border-box; */
+}
+
+/* Menu Wrapper */
+.mobile-menu-wrapper {
+  font-family: "Arial", sans-serif;
+  position: relative;
+  background-color: #f8f9fa; /* Light background for menu */
+  padding: 10px 20px;
+  border-radius: 8px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); Soft shadow */
+}
+
+
+/* Hide the main and submenu checkboxes */
+.menu-checkbox,
+.submenu-checkbox {
+  display: none;
+}
+
+/* Style the main menu toggle button */
+.menu-toggle-label {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333;
+  padding: 5px;
+}
+
+.menu-toggle-label .menu-icon,
+.menu-toggle-label .close-icon {
+  font-size: 18px;
+  transition: transform 0.3s ease;
+}
+
+/* Hide Close Icon by Default */
+.menu-toggle-label .close-icon {
+  display: none;
+}
+
+/* Style the Main Menu */
+.menu {
+  position: absolute;
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 10px 0;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); 
+  overflow: hidden; /* For smooth transitions */
+  transition: max-height 0.5s ease;
+  max-height: 0; /* Initial state */
+  top: 100%; /* Position below the menu toggle button */
+  right: 0;
+  z-index: 999; /* Ensure it appears above other elements */
+  background-color: #fff; /* Optional: Set a background color */
+  display: none; /* Hide by default */
+  width: 200px;
+}
+
+/* Style menu items */
+.menu li {
+  position: relative;
+  border-bottom: 1px solid #eee;
+}
+
+.menu li:last-child {
+  border-bottom: none;
+}
+
+/* Submenu Labels */
+.submenu-label {
+  display: block;
+  padding: 15px 20px;
+  cursor: pointer;
+  color: #555;
+  font-weight: bold;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu li a {
+  display: block;
+  padding: 15px 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: normal;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Submenu Styling */
+.submenu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  background-color: #f9f9f9; /* Light background for submenu */
+  border-left: 3px solid #ddd; /* Visual hierarchy */
+  margin: 0;
+  padding-left: 15px;
+  overflow: hidden;
+  transition: max-height 0.4s ease;
+  max-height: 0; /* Collapsed state */
+}
+
+/* Hover Effects */
+.menu li a:hover,
+.submenu-label:hover {
+  background-color: #f1f1f1;
+  color: #e63946;
+}
+
+/* Toggle Visibility of Main Menu */
+.menu-checkbox:checked ~ .menu {
+  display: block;
+  max-height: 500px; 
+}
+
+/* Toggle Visibility of Submenus */
+.submenu-checkbox:checked + .submenu-label + .submenu {
+  display: block;
+  max-height: 300px; /* Allows submenu to expand smoothly */
+}
+
+/* Swap Icons for Open/Close States */
+.menu-checkbox:checked + .menu-toggle-label .menu-icon {
+  transform: rotate(-90deg); /* Rotate hamburger icon */
+  display: none;
+}
+
+.menu-checkbox:checked + .menu-toggle-label .close-icon {
+  display: inline-block;
+}
+
+/* Additional Spacing and Alignment */
+.menu li {
+  padding: 5px 0;
+}
+
+.menu li a,
+.submenu-label {
+  border-radius: 6px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .mobile-menu-wrapper {
+    padding: 10px;
+  }
+
+  .menu-toggle-label {
+    font-size: 22px;
+  }
+
+  .menu li a,
+  .submenu-label {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mobile-menu-wrapper {
+    display: none;
+  }
+}
+
+.page-id-697 .wp-block-site-logo {
+  align-self: flex-start; 
+  flex-shrink: 0; 
+  height: auto; 
+}
+
+@media (max-width: 326px) {
+  .page-id-697 .wp-block-site-logo {
+    align-self: flex-start;
+    flex-shrink: 0;
+    height: auto;
+    width: 120px !important;
+  }
+}
