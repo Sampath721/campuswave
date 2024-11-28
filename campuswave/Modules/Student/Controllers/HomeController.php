@@ -10,7 +10,7 @@ class HomeController extends BaseController{
     }
 
     public function index(){
-        echo "Hello, Student dashboard here";
+        echo "Hello, students dashboard here";
         exit;
     }
 
